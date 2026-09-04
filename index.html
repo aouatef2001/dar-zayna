@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dar Zayna — Cuisine Marocaine</title>
+
+  <meta
+    name="description"
+    content="Dar Zayna — Découvrez une cuisine marocaine authentique dans un cadre élégant."
+  >
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="header">
+
+    <a href="#accueil" class="logo">
+      <span>دار</span>
+      ZAYNA
+    </a>
+
+    <nav class="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#menu">Menu</a>
+      <a href="#apropos">À propos</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#avis">Avis</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#reservation" class="header-btn">
+      Réserver
+    </a>
+
+    <button class="menu-toggle" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+
+  <main>
+
+    <section class="hero" id="accueil">
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          <span></span>
+          SAVEURS AUTHENTIQUES
+          <span></span>
+        </p>
+
+        <h1>
+          L'art de la
+          <span>cuisine marocaine</span>
+        </h1>
+
+        <p class="hero-text">
+          Une expérience culinaire où les traditions marocaines
+          rencontrent l'élégance et la modernité.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#menu" class="btn btn-gold">
+            Découvrir le menu
+            <span>↗</span>
+          </a>
+
+          <a href="#reservation" class="btn btn-outline">
+            Réserver une table
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="scroll-indicator">
+        <span></span>
+        Découvrir
+      </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features">
+
+      <article class="feature">
+
+
+        <div class="feature-icon">♢</div>
+
+        <h3>Cuisine Authentique</h3>
+
+        <p>
+          Des recettes marocaines traditionnelles
+          préparées avec passion.
+        </p>
+
+      </article>
+
+
+      <article class="feature">
+
+        <div class="feature-icon">⌁</div>
+
+        <h3>Produits Frais</h3>
+
+        <p>
+          Des ingrédients soigneusement sélectionnés
+          chaque jour.
+        </p>
+
+      </article>
+
+
+      <article class="feature">
+
+ 
+
+        <div class="feature-icon">☆</div>
+
+        <h3>Cadre Élégant</h3>
+
+        <p>
+          Une atmosphère chaleureuse inspirée
+          de l'art marocain.
+        </p>
+
+      </article>
+
+
+      <article class="feature">
+
+
+
+        <div class="feature-icon">♡</div>
+
+        <h3>Service Exceptionnel</h3>
+
+        <p>
+          Une équipe attentive pour rendre
+          votre expérience inoubliable.
+        </p>
+
+      </article>
+
+    </section>
+
+
+    <!-- ================= MENU ================= -->
+
+    <section class="menu-section dark-section" id="menu">
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          NOTRE SÉLECTION
+        </p>
+
+        <h2>
+          Nos <span>spécialités</span>
+        </h2>
+
+        <p>
+          Une sélection de plats emblématiques
+          de la cuisine marocaine.
+        </p>
+
+      </div>
+
+
+      <div class="dish-grid">
+
+
+        <article class="dish-card reveal">
+
+          <div class="dish-image">
+
+            <img
+              src="tajine.jpeg"
+              alt="Tajine marocain"
+            >
+
+            <span class="dish-tag">
+              Signature
+            </span>
+
+          </div>
+
+          <div class="dish-info">
+
+            <div class="dish-title">
+
+              <h3>
+                Tajine de Poulet
+              </h3>
+
+              <strong>
+                95 DH
+              </strong>
+
+            </div>
+
+            <p>
+              Poulet mijoté aux citrons confits,
+              olives et épices douces.
+            </p>
+
+            <button
+              class="dish-order order-btn"
+              data-dish="Tajine de Poulet"
+            >
+              Commander
+              <span>→</span>
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <article class="dish-card reveal">
+
+          <div class="dish-image">
+
+            <img
+              src="couscous.jpeg"
+              alt="Couscous marocain"
+            >
+
+          </div>
+
+          <div class="dish-info">
+
+            <div class="dish-title">
+
+              <h3>
+                Couscous Royal
+              </h3>
+
+              <strong>
+                120 DH
+              </strong>
+
+            </div>
+
+            <p>
+              Couscous traditionnel accompagné
+              de légumes et de viandes.
+            </p>
+
+            <button
+              class="dish-order order-btn"
+              data-dish="Couscous Royal"
+            >
+              Commander
+              <span>→</span>
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <article class="dish-card reveal">
+
+          <div class="dish-image">
+
+            <img
+              src="pastilla.jpeg"
+              alt="Pastilla marocaine"
+            >
+
+          </div>
+
+          <div class="dish-info">
+
+            <div class="dish-title">
+
+              <h3>
+                Pastilla au Poulet
+              </h3>
+
+              <strong>
+                85 DH
+              </strong>
+
+            </div>
+
+            <p>
+              Une délicate feuille croustillante,
+              poulet, amandes et cannelle.
+            </p>
+
+            <button
+              class="dish-order order-btn"
+              data-dish="Pastilla au Poulet"
+            >
+              Commander
+              <span>→</span>
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <article class="dish-card reveal">
+
+          <div class="dish-image">
+
+            <img
+              src="briouate.jpeg"
+              alt="Table marocaine"
+            >
+
+          </div>
+
+          <div class="dish-info">
+
+            <div class="dish-title">
+
+              <h3>
+                Briouates
+              </h3>
+
+              <strong>
+                55 DH
+              </strong>
+
+            </div>
+
+            <p>
+              Délicieuses feuilles croustillantes
+              farcies aux amandes et miel.
+            </p>
+
+            <button
+              class="dish-order order-btn"
+              data-dish="Briouates"
+            >
+              Commander
+              <span>→</span>
+            </button>
+
+          </div>
+
+        </article>
+
+      </div>
+
+
+      <div class="menu-button reveal">
+
+        <a href="menu.html" class="btn btn-outline">
+          Voir tout le menu
+          <span>↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about section-light" id="apropos">
+
+      <div class="about-image reveal">
+
+        <img
+          src="cuisine.jpeg"
+          alt="Architecture marocaine"
+        >
+
+        <div class="about-badge">
+          <strong>15+</strong>
+          <span>années de passion</span>
+        </div>
+
+      </div>
+
+
+      <div class="about-content reveal">
+
+        <p class="eyebrow">
+          NOTRE HISTOIRE
+        </p>
+
+        <h2>
+          Bienvenue dans
+          <span>notre maison</span>
+        </h2>
+
+        <p>
+          Dar Zayna est née d'une passion profonde pour
+          la cuisine marocaine traditionnelle.
+        </p>
+
+        <p>
+          Chaque plat raconte une histoire. Chaque épice
+          rappelle un souvenir. Nous avons imaginé un lieu
+          où l'héritage marocain rencontre une touche
+          contemporaine.
+        </p>
+
+        <div class="about-signature">
+          دار زينة
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= GALLERY ================= -->
+
+    <section class="gallery-section dark-section" id="galerie">
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          GALERIE
+        </p>
+
+        <h2>
+          Découvrez notre <span>univers</span>
+        </h2>
+
+      </div>
+
+
+      <div class="gallery-grid">
+
+        <div class="gallery-item large reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=85"
+            alt="Salle du restaurant"
+          >
+
+        </div>
+
+
+        <div class="gallery-item reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=700&q=85"
+            alt="Cuisine marocaine"
+          >
+
+        </div>
+
+
+        <div class="gallery-item reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=700&q=85"
+            alt="Restaurant élégant"
+          >
+
+        </div>
+
+
+        <div class="gallery-item reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?auto=format&fit=crop&w=700&q=85"
+            alt="Plat marocain"
+          >
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= REVIEWS ================= -->
+
+    <section class="reviews section-light" id="avis">
+
+      <div class="section-heading centered reveal">
+
+        <p class="eyebrow">
+          NOS CLIENTS
+        </p>
+
+        <h2>
+          Ils parlent de <span>Dar Zayna</span>
+        </h2>
+
+      </div>
+
+
+      <div class="review-grid">
+
+        <article class="review-card reveal">
+
+          <div class="stars">
+            ★★★★★
+          </div>
+
+          <p>
+            “Une expérience magnifique. Les plats sont
+            délicieux et le cadre est vraiment élégant.”
+          </p>
+
+          <div class="review-author">
+            <span>MK</span>
+            <div>
+              <strong>Marie K.</strong>
+              <small>Cliente vérifiée</small>
+            </div>
+          </div>
+
+        </article>
+
+
+        <article class="review-card reveal">
+
+          <div class="stars">
+            ★★★★★
+          </div>
+
+          <p>
+            “Le tajine était exceptionnel. Un vrai goût
+            du Maroc dans une ambiance très agréable.”
+          </p>
+
+          <div class="review-author">
+            <span>YA</span>
+            <div>
+              <strong>Yassine A.</strong>
+              <small>Client vérifié</small>
+            </div>
+          </div>
+
+        </article>
+
+
+        <article class="review-card reveal">
+
+          <div class="stars">
+            ★★★★★
+          </div>
+
+          <p>
+            “Service parfait, nourriture excellente.
+            Nous reviendrons avec plaisir.”
+          </p>
+
+          <div class="review-author">
+            <span>SN</span>
+            <div>
+              <strong>Sarah N.</strong>
+              <small>Cliente vérifiée</small>
+            </div>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= RESERVATION ================= -->
+
+    <section class="reservation" id="reservation">
+
+      <div class="reservation-overlay"></div>
+
+      <div class="reservation-content reveal">
+
+        <p class="eyebrow">
+          UNE TABLE VOUS ATTEND
+        </p>
+
+        <h2>
+          Réservez votre
+          <span>expérience</span>
+        </h2>
+
+        <p>
+          Pour une soirée en famille, un dîner romantique
+          ou une occasion spéciale.
+        </p>
+
+        <button class="btn btn-gold reserve-btn">
+          Réserver une table
+          <span>↗</span>
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact section-light" id="contact">
+
+      <div class="contact-content">
+
+        <div class="contact-text reveal">
+
+          <p class="eyebrow">
+            CONTACT
+          </p>
+
+          <h2>
+            Venez nous
+            <span>rendre visite</span>
+          </h2>
+
+          <p>
+            Nous serions ravis de vous accueillir
+            chez Dar Zayna.
+          </p>
+
+        </div>
+
+
+        <div class="contact-info reveal">
+
+          <div>
+            <span>ADRESSE</span>
+            <p>
+              Avenue Mohammed V, Kénitra
+            </p>
+          </div>
+
+          <div>
+            <span>TÉLÉPHONE</span>
+            <p>
+              +212 5 00 00 00 00
+            </p>
+          </div>
+
+          <div>
+            <span>HORAIRES</span>
+            <p>
+              Lun — Dim : 12h00 — 00h00
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="footer-logo">
+      <span>دار</span>
+      ZAYNA
+    </div>
+
+    <p>
+      Cuisine marocaine authentique · Kénitra
+    </p>
+
+    <div class="footer-bottom">
+      © 2026 Dar Zayna. Tous droits réservés.
+    </div>
+
+  </footer>
+
+
+  <!-- ================= POPUP ================= -->
+
+  <div class="popup" id="popup">
+
+    <div class="popup-box">
+
+      <button class="popup-close">
+        ×
+      </button>
+
+      <div class="popup-icon">
+        ✓
+      </div>
+
+      <p class="eyebrow">
+        DAR ZAYNA
+      </p>
+
+      <h2 id="popup-title">
+        Merci !
+      </h2>
+
+      <p id="popup-message">
+        Votre demande a bien été enregistrée.
+      </p>
+
+      <button class="btn btn-gold popup-ok">
+        Fermer
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
